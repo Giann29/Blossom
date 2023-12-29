@@ -1,0 +1,17 @@
+[33mcommit d32c7eb788cc376d5e6dcf88d7917e829384f8cd[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: GianniARBA <gianni.fornasari@arba.gov.ar>
+Date:   Fri Dec 29 10:05:33 2023 -0300
+
+    Agrego clases DAO y comienzo controllers
+
+[33mcommit 4a42435fc57fc8d26b9de509a65d4107164b807a[m
+Author: Fornasari Gianni <gianni.fornasari@arba.gov.ar>
+Date:   Thu Dec 28 13:57:58 2023 -0300
+
+    Agrego Clases Model
+
+[33mcommit bb5c244008fde71ba9baebeea0e6d41d0c97a3dd[m
+Author: Fornasari Gianni <gianni.fornasari@arba.gov.ar>
+Date:   Thu Dec 28 13:23:19 2023 -0300
+
+    Primer Commit
