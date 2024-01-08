@@ -1,29 +1,35 @@
-package com.webapp.prueba.dao;
+package com.webapp.Blossom.dao;
 
 import java.util.List;
-import com.webapp.prueba.models.User;
+
 import de.mkammerer.argon2.Argon2;
 import de.mkammerer.argon2.Argon2Factory;
+
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
+
+import com.webapp.Blossom.models.User;
+
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
 @Repository
 @Transactional
 public class UserDao implements IUserDao{
+
     @PersistenceContext
-    private EntityManager em;
+    EntityManager entityManager;
+    
     @Override
     @Transactional
     public List<User> getUsers() {
         String query = "FROM Users";
-        return em.createQuery(query).getResultList();
+        return entityManager.createQuery(query).getResultList();
     }
     @Override
     public User getUser(User user) {
         String query = "FROM Users WHERE email = :email";
-        List<User> users = em.createQuery(query)
+        List<User> users = entityManager.createQuery(query)
                 .setParameter("email", user.getEmail())
                 .getResultList();
         if(users.isEmpty()){
@@ -38,7 +44,7 @@ public class UserDao implements IUserDao{
     }
     @Override
     public void registerUser(User user) {
-        em.merge(user);
+        entityManager.merge(user);
     }
     
 }

@@ -1,6 +1,7 @@
-package com.webapp.prueba.dao;
-import com.webapp.prueba.models.Product;
+package com.webapp.Blossom.dao;
 import java.util.List;
+
+import com.webapp.Blossom.models.Product;
 public interface IProductDao {
 
     public List<Product> getProducts();

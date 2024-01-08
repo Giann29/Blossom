@@ -1,11 +1,13 @@
-package com.webapp.prueba.dao;
+package com.webapp.Blossom.dao;
 
 import java.util.List;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
+
+import com.webapp.Blossom.models.Product;
+
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-import com.webapp.prueba.models.Product;
 
 @Repository
 @Transactional

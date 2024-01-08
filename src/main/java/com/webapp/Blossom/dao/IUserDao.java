@@ -1,7 +1,8 @@
-package com.webapp.prueba.dao;
+package com.webapp.Blossom.dao;
 
 import java.util.List;
-import com.webapp.prueba.models.User;
+
+import com.webapp.Blossom.models.User;
 
 public interface IUserDao {
     public List<User> getUsers();

@@ -1,5 +1,4 @@
-package com.webapp.utils;
-
+package com.webapp.Blossom.utils;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtBuilder;
 import io.jsonwebtoken.Jwts;

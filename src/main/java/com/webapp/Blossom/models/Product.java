@@ -1,4 +1,4 @@
-package com.webapp.prueba.models;
+package com.webapp.Blossom.models;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
