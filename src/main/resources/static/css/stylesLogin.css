@@ -1,0 +1,81 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #333; /* Cambiado para que coincida con el fondo general */
+    color: #fff;
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #fff; /* Cambiado para que coincida con el color de texto general */
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444; /* Cambiado para que coincida con el fondo de productos */
+    color: #fff;
+    margin-top: 5px;
+}
+
+.form-group input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.login-btn:hover {
+    background-color: #27ae60;
+}
+
+.forgot-password {
+    text-align: right;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #fff; /* Cambiado para que coincida con el color de texto general */
+}
+
+.forgot-password a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.forgot-password a:hover {
+    color: #ecf0f1;
+}

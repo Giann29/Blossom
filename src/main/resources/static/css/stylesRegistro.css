@@ -1,0 +1,103 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+header {
+    background-image: url('../img/cabecera.jpeg');
+    background-size: cover;
+    font-family: 'Kimono', sans-serif;
+    color: #fff;
+    padding: 6em 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    color: #fff;
+}
+
+header p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    color: #fff;
+}
+
+.registration-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #34495e;
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.registration-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 1.2em;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    margin-top: 5px;
+}
+
+.form-group input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.register-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.register-btn:hover {
+    background-color: #27ae60;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 3em 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Kimono';
+    src: local('Kimono'), url('../fonts/Kimono.woff') format('woff'), url('../fonts/Kimono.ttf') format('ttf');
+    font-weight: 400; /* Puedes ajustar según las variantes de tu fuente (por ejemplo, 400, 700, etc.) */
+    font-style: normal;
+}
